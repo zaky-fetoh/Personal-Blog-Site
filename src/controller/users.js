@@ -2,12 +2,11 @@ const UserModel = require("../model/users");
 const bcrypt = require("bcrypt")
 
 const HashPass = async (pswd) => {
-    /***
+    /*********
      * This Methodtake as input a plain text a return a digest of 
      * this text using bcrypthash Function
-     */
-    const hashedPassword = await bcrypt.hash(pswd, 12);
-    return hashedPassword
+     ********/
+     return await bcrypt.hash(pswd, 12);
 }
 
 exports.addUser = async (req, res, next) => {
@@ -60,6 +59,34 @@ exports.editUser = async (req, res, next) => {
             res.status(200).json({
                 ok: true, message: "user updated",
                 data: userDoc._doc,
+            })
+        } else throw new Error("Incorrect password");
+    } catch (e) {
+        return res.status(500).json({
+            ok: false, message: e.message,
+        })
+    }
+}
+
+
+exports.deleteUser = async(req, res, next)=>{ 
+    /* ::::::::::::::
+     * Route: /user/ 
+     * Method: DELETE
+     * INPUT: UserDoc as {userName, password}
+     * 0utRet:  {ok, message}
+     **********/
+    const userDoc = await UserModel.findOne({
+        userName: req.body.userName,
+    }, { __v: 0, })
+
+    try {
+        if (await bcrypt.compare(req.body.password,
+            userDoc.password)) {
+            const result = await userDoc.delete(); 
+            res.status(200).json({
+                ok: true, message: "user deleted",
+                data: result.deletedCount,
             })
         } else throw new Error("Incorrect password");
     } catch (e) {
