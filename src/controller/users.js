@@ -51,6 +51,7 @@ exports.editUser = async (req, res, next) => {
         userName: req.body.oldUserName,
     }, { __v: 0, })
     try {
+        if(userDoc) throw new Error("No User Found");
         if (await bcrypt.compare(req.body.oldPassword,
             userDoc.password)) {
             userDoc.userName = req.body.newUserName;
@@ -79,8 +80,8 @@ exports.deleteUser = async(req, res, next)=>{
     const userDoc = await UserModel.findOne({
         userName: req.body.userName,
     }, { __v: 0, })
-
     try {
+        if(userDoc) throw new Error("No User Found");
         if (await bcrypt.compare(req.body.password,
             userDoc.password)) {
             const result = await userDoc.delete(); 
@@ -95,5 +96,3 @@ exports.deleteUser = async(req, res, next)=>{
         })
     }
 }
-
-
