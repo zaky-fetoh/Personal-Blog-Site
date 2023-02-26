@@ -2,12 +2,17 @@ const mongoose = require("mongoose");
 
 
 const Blogs = new mongoose.Schema({
-    owner:{
+    _id:{
         type: mongoose.Schema.Types.ObjectId,
         default: mongoose.Types.ObjectId,
     },
+    owner:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "users", required: true,
+    },
     blog:{
-        type:mongoose.Schema.Types.String,  
+        type:mongoose.Schema.Types.String,
+        trim: true, minLength:3,
     },
 }) 
 
