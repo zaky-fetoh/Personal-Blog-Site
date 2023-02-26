@@ -1,0 +1,5 @@
+const express = require("express")
+const contUser = require("../controller/users")
+module.exports = express.Router()
+    .post("/",contUser.addUser)
+    .put("/", contUser.editUser)
