@@ -9,6 +9,10 @@ require("dotenv").config({
 
 const userRoutes = require("./routes/user")
 
+
+const contAuth = require("./controller/Auth")
+
+
 const PORT = process.env.PORT || 0 
 const MONGODB_URI = process.env.MONGODB_URI;
 
@@ -25,6 +29,8 @@ console.log(MONGODB_URI);
     const ser = express().use(morgan())
     .use(express.json()).use(express.urlencoded())
     .use("/user", userRoutes)
+    .post("/login", contAuth.Login)
+    .get("/verify", contAuth.vertify)
 
     .listen(PORT,()=>{
         console.log(`Blog Ser Is ${ser.address().port}`)
