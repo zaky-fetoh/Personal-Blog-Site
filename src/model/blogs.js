@@ -10,11 +10,15 @@ const Blogs = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "users", required: true,
     },
+    title:{
+        type:mongoose.Schema.Types.String,
+        maxLength:30, trim: true,
+    },
     blog:{
         type:mongoose.Schema.Types.String,
         trim: true, minLength:3,
     },
-}) 
+});
 
 
 module.exports = mongoose.model("blogs", Blogs);

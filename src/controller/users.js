@@ -28,10 +28,12 @@ exports.addUser = async (req, res, next) => {
     } catch (e) {
         return res.json({
             ok: false, message: e.message,
+            servTim: req.getReqTime(),
         })
     }
     return res.json({
         ok: true, User_id: UserDoc._id,
+        servTim: req.getReqTime(),
         message: "UserAdded",
         data: UserDoc,
     })
@@ -59,12 +61,14 @@ exports.editUser = async (req, res, next) => {
             await userDoc.save();
             res.status(200).json({
                 ok: true, message: "user updated",
+                servTim: req.getReqTime(),
                 data: userDoc._doc,
             })
         } else throw new Error("Incorrect password");
     } catch (e) {
         return res.status(500).json({
             ok: false, message: e.message,
+            servTim: req.getReqTime(),
         })
     }
 }
@@ -88,11 +92,13 @@ exports.deleteUser = async(req, res, next)=>{
             res.status(200).json({
                 ok: true, message: "user deleted",
                 data: result.deletedCount,
+                servTim: req.getReqTime(),
             })
         } else throw new Error("Incorrect password");
     } catch (e) {
         return res.status(500).json({
             ok: false, message: e.message,
+            servTim: req.getReqTime(),
         })
     }
 }

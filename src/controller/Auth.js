@@ -40,6 +40,16 @@ exports.Login = async(req, res, next)=>{
 }
 
 exports.vertify = async(req, res, next)=>{
+    /*********
+     * this method is used as gard usedto verify the
+     * the Authorization headerofthe request.
+     * the JWT token is attachedto Autherization header
+     * OUt: it'll Return {ok:false, message: "invalid Token",}
+     * for invalid Token.
+     * else if the token is validit will forward the Excution 
+     * to the NextMiddleWare.
+     *******/
+
     const jtoken = req.headers["authorization"].split(" ")[1];
     try{
         const decodedToken = await jwt.verify(jtoken, JWT_KEY);
