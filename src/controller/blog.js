@@ -1,4 +1,3 @@
-const { model } = require("mongoose");
 const blogModel = require("../model/blogs");
 
 
