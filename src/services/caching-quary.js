@@ -40,8 +40,7 @@ mongoose.Query.prototype.exec = async function () {
      * * * return the result
      */
 
-    // if (!this.useCache)
-    //     return origiExec.apply(this, arguments)
+    if (!this.useCache) return origiExec.apply(this, arguments)
 
 
     const CollName = this.model.collection.collectionName;
@@ -50,16 +49,16 @@ mongoose.Query.prototype.exec = async function () {
     const value = await redisClient.get(Qkey)
     if (value) {
         const parsedCache = JSON.parse(value);
-        if(Array.isArray(parsedCache)) return parsedCache.map(e=>{
+        if (Array.isArray(parsedCache)) return parsedCache.map(e => {
             return this.model(e)
-        }); 
+        });
         else return this.model(parsedCache)
     }
 
     const outPut = await origiExec.apply(this, arguments);
-    (async()=>{
-        await redisClient.set(Qkey, JSON.stringify(outPut),{
-            EX:5,
+    (async () => {
+        await redisClient.set(Qkey, JSON.stringify(outPut), {
+            EX: 10,
         })
     })()
     return outPut

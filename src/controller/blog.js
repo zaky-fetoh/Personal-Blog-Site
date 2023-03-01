@@ -38,9 +38,9 @@ exports.getBlog = async (req, res, next) => {
      ***************/
 
     try {
-        const DocBlog = await blogModel.findOne({
+        const DocBlog = await (blogModel.findOne({
             _id: req.params.id,
-        }, { __v: 0 })
+        }, { __v: 0 }).cachable());
         res.status(200).json({
             ok: true, message: "Sucess",
             servTim: req.getReqTime(),
@@ -66,9 +66,9 @@ exports.getMyBlogs = async (req, res, next) => {
      * ofUser blog given His authentication
      */
     try {
-        const blogDocs = await blogModel.find({
+        const blogDocs = await (blogModel.find({
             owner: req.user_id,
-        }, { __v: 0 });
+        }, { __v: 0 }).cachable());
         res.status(200).json({
             ok: true, message: "Sucess",
             servTim: req.getReqTime(),
@@ -89,10 +89,10 @@ exports.getAllBlogsHeaders = async (req, res, next) => {
      * respo: [{blog_id, blog_title, blog_time, blog_owner}]
      */
     try {
-        const blogsDoc = await blogModel.find({
-        }, { __v: 0, blog: 0 });
+        const blogsDoc = await (blogModel.find({
+        }, { __v: 0, blog: 0 }).cachable());
         res.status(200).json({
-            ok: false, message: "Success",
+            ok: true, message: "Success",
             servTim: req.getReqTime(),
             data: blogsDoc.map(e => ({
                 blog_id: e._id, blog_title: e.title,
@@ -120,7 +120,7 @@ exports.deleteBlog = async (req, res, next) => {
     try {
         const dltResult = await blogModel.deleteOne({
             _id: req.params.id, owner: req.user_id
-        });
+        }) 
         res.status(200).json({
             ok: true,
             message: `${dltResult.deletedCount} Blog Deleted`,
