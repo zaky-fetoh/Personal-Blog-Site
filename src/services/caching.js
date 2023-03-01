@@ -10,6 +10,7 @@ mongoose.Query.prototype.cachable = function () {
 }
 
 mongoose.Query.prototype.exec = async function () {
+
     /******
      * this metod uses a radis cash it goes as follows
      * * if this quary is not cachable original flow and returns
@@ -21,17 +22,18 @@ mongoose.Query.prototype.exec = async function () {
      * * * return the result
      */
 
-
     // if (!this.useCache)
     //     return origiExec.apply(this, arguments)
-    
-    const Qkey = this.getOptions()
-    console.log(Qkey)
 
-    
+    // this.getOptions()
+    const CollName = this.model.collection.collectionName;
+    const Qkey =  CollName + JSON.stringify(this.getFilter());
+    console.log( Qkey)
+
+
     const outPut = await origiExec.apply(this, arguments);
 
-    console.log(outPut)
+    console.log(outPut);
 
     return outPut
 }
