@@ -13,17 +13,18 @@ services:
       - ./:/user/src/app
     depends_on:
       - mongo
-      - radis
+      - redis
 
-  radis:
+  redis:
     image: redis
     container_name: blog-redis
     ports:
       - 6379:6379
 
-  radis-insight:
+  redis-insight:
     image: redislabs/redisinsight
     container_name: blog-redis-gui
+    restart: always
     ports:
       - 8001:8001
 
