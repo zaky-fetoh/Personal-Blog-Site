@@ -8,6 +8,7 @@ require("dotenv").config({
     path:path.join(__dirname,".env")});
 
 const userRoutes = require("./routes/user")
+const blogRoutes = require("./routes/blog")
 
 const TimerMiddleware = require("./services/setTimer");
 
@@ -30,6 +31,7 @@ console.log(MONGODB_URI);
     const ser = express().use(TimerMiddleware.usetimer).use(morgan())
     .use(express.json()).use(express.urlencoded())
     .use("/user", userRoutes)
+    .use("/blog",contAuth.vertify, blogRoutes)
     .post("/login", contAuth.Login)
     .get("/verify", contAuth.vertify)
 

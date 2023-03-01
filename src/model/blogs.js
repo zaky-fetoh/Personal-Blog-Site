@@ -18,6 +18,10 @@ const Blogs = new mongoose.Schema({
         type:mongoose.Schema.Types.String,
         trim: true, minLength:3,
     },
+    time:{
+        type:mongoose.Schema.Types.Date,
+        default: Date.now,
+    }
 });
 
 

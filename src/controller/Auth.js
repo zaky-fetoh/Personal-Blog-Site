@@ -50,8 +50,8 @@ exports.vertify = async(req, res, next)=>{
      * to the NextMiddleWare.
      *******/
 
-    const jtoken = req.headers["authorization"].split(" ")[1];
     try{
+        const jtoken = req.headers["authorization"].split(" ")[1];
         const decodedToken = await jwt.verify(jtoken, JWT_KEY);
         req.user_id = decodedToken.user_id;
         next();
