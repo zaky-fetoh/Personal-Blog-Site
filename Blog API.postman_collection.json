@@ -789,6 +789,105 @@
 					"body": "{\n    \"ok\": false,\n    \"message\": \"Success\",\n    \"servTim\": 12,\n    \"data\": [\n        {\n            \"blog_id\": \"63feb432519c806098f76301\",\n            \"blog_time\": \"2023-03-01T02:10:58.819Z\",\n            \"blog_owner\": \"63feb396519c806098f762fe\"\n        },\n        {\n            \"blog_id\": \"63feb468519c806098f76303\",\n            \"blog_time\": \"2023-03-01T02:11:52.906Z\",\n            \"blog_owner\": \"63feb396519c806098f762fe\"\n        },\n        {\n            \"blog_id\": \"63feb57778b5ea418f0560f2\",\n            \"blog_title\": \"MyFirst Blog\",\n            \"blog_time\": \"2023-03-01T02:16:23.031Z\",\n            \"blog_owner\": \"63feb396519c806098f762fe\"\n        },\n        {\n            \"blog_id\": \"63feb57b78b5ea418f0560f4\",\n            \"blog_title\": \"My Second Bla Blog\",\n            \"blog_time\": \"2023-03-01T02:16:27.429Z\",\n            \"blog_owner\": \"63feb396519c806098f762fe\"\n        }\n    ]\n}"
 				}
 			]
+		},
+		{
+			"name": "Delete Blog",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjNmZWIzOTY1MTljODA2MDk4Zjc2MmZlIiwiaWF0IjoxNjc3NjM2NTEzLCJleHAiOjE2Nzc2NDczMTN9.YgXyDISIR4F3GExiuczMbB86-MahVY_JlzkaPZb6RMA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/blog/63feb57b78b5ea418f0560f4",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"blog",
+						"63feb57b78b5ea418f0560f4"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Blog",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/blog/63feb57b78b5ea418f0560f4",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"blog",
+								"63feb57b78b5ea418f0560f4"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "38"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"26-ry6aLDuCbHnFSJOnBuSPiI1/tjw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 01 Mar 2023 02:39:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ok\": true,\n    \"message\": \"1 Blog Deleted\"\n}"
+				}
+			]
 		}
 	]
 }

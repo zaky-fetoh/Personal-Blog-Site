@@ -8,4 +8,5 @@ module.exports = require("express").Router()
         .get("/", contBlog.getAllBlogsHeaders)
         .get("/my-blog", contBlog.getMyBlogs)
         .get("/:id", contBlog.getBlog)
+        .delete("/:id",contBlog.deleteBlog)
 

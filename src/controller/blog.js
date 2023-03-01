@@ -1,3 +1,4 @@
+const { model } = require("mongoose");
 const blogModel = require("../model/blogs");
 
 
@@ -102,6 +103,31 @@ exports.getAllBlogsHeaders = async (req, res, next) => {
     } catch (e) {
         res.status(500).josn({
             servTim: req.getReqTime(),
+            ok: false, message: e.message,
+        })
+    }
+}
+
+
+exports.deleteBlog = async (req, res, next) => {
+    /*****
+     * Route: /blog/id  Method: DELETE
+     * input: user_id from the Auth Token
+     *        params.id from the URl
+     * retur: {ok, message}
+     * This method delete a given params.id Blog and 
+     * delete a blog iff the user is the owner ofthis blog
+     */
+    try {
+        const dltResult = await blogModel.deleteOne({
+            _id: req.params.id, owner: req.user_id
+        });
+        res.status(200).json({
+            ok: true,
+            message: `${dltResult.deletedCount} Blog Deleted`,
+        })
+    } catch (e) {
+        res.status(500).json({
             ok: false, message: e.message,
         })
     }
