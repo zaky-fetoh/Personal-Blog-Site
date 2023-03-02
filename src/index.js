@@ -3,7 +3,8 @@ require("dotenv").config({
     path: path.join(__dirname, ".env")
 });
 
-require("./services/caching-quary")
+require("./services/caching-quary");
+require("./services/caching-jwt");
 
 const mongoose = require("mongoose");
 const express = require("express");

@@ -7,8 +7,7 @@ const UserModel = require("../model/users");
 const JWT_KEY = process.env.JWT_SECRIT;
 const ExpInTime = "3h";
 
-jwt.sign = require("util").promisify(jwt.sign); 
-jwt.verify = require("util").promisify(jwt.verify);
+
 
 exports.Login = async(req, res, next)=>{
     /********
@@ -25,8 +24,9 @@ exports.Login = async(req, res, next)=>{
     try{if(!userDoc) throw new Error("This user Does Not Exist");
         if(await bcrypt.compare(req.body.password,userDoc.password)){
             const token = await jwt.sign({
-                user_id:userDoc._id, 
-            },JWT_KEY,{expiresIn:ExpInTime});
+                user_id:userDoc._id },JWT_KEY,{
+                expiresIn:ExpInTime, useCache:true});
+            
             res.status(200).json({
                 JWT_Token: token, 
                 ok: true, message:"Login Sucess",

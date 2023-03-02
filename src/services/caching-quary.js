@@ -1,31 +1,15 @@
 const mongoose = require("mongoose");
-const redis = require("redis");
-
-const REDIS_URI = process.env.REDIS_URI;
+const redisClient = require("./redis-client");
 
 const origiExec = mongoose.Query.prototype.exec;
+
+const CACHE_QUARY = 20;
 
 mongoose.Query.prototype.cachable = function () {
     this.useCache = true;
     return this
 };
 
-const redisClient = redis.createClient({
-    url: REDIS_URI,
-});
-
-(async () => {
-    await redisClient.connect();
-})()
-
-redisClient.on("error", (e) => {
-    console.log(e.message);
-    process.exit(20);
-});
-
-redisClient.on('ready', () => {
-    console.log(`Redis Caching Server is Connected! at ${REDIS_URI}`);
-});
 
 mongoose.Query.prototype.exec = async function () {
 
@@ -58,7 +42,7 @@ mongoose.Query.prototype.exec = async function () {
     const outPut = await origiExec.apply(this, arguments);
     (async () => {
         await redisClient.set(Qkey, JSON.stringify(outPut), {
-            EX: 10,
+            EX: CACHE_QUARY,
         })
     })()
     return outPut
