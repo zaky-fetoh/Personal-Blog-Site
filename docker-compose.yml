@@ -4,13 +4,13 @@ services:
   app:
     image: blog-app
     build:
-      context: ./
+      context: ./backend-server
       dockerfile: Dockerfile
     container_name: blog-app
     ports:
       - 80:80
     volumes:
-      - ./:/user/src/app
+      - ./backend-server/:/user/src/app
     depends_on:
       - mongo
       - redis
