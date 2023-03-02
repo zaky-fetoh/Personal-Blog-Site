@@ -30,6 +30,7 @@ exports.Login = async(req, res, next)=>{
             res.status(200).json({
                 JWT_Token: token, 
                 ok: true, message:"Login Sucess",
+                servTim: req.getReqTime(),
             })
         }else throw new Error("Incorrect USER or PASS");
     }catch(e){

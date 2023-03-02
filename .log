@@ -1799,3 +1799,324 @@ blog-mongo       | {"t":{"$date":"2023-03-02T10:11:28.347+00:00"},"s":"I",  "c":
 blog-mongo       | {"t":{"$date":"2023-03-02T10:11:28.350+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn184","msg":"client metadata","attr":{"remote":"172.19.0.5:38570","client":"conn184","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
 blog-mongo       | {"t":{"$date":"2023-03-02T10:11:38.841+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:47696","uuid":"55898eb5-b0af-4818-a1ac-804423381fd1","connectionId":185,"connectionCount":5}}
 blog-mongo       | {"t":{"$date":"2023-03-02T10:11:38.842+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn185","msg":"client metadata","attr":{"remote":"172.19.0.5:47696","client":"conn185","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:12:08 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:12:11 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:12:12 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:12:19 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:46.567+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn185","msg":"Connection ended","attr":{"remote":"172.19.0.5:47696","uuid":"55898eb5-b0af-4818-a1ac-804423381fd1","connectionId":185,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:46.567+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn184","msg":"Connection ended","attr":{"remote":"172.19.0.5:38570","uuid":"f55c4ea3-e084-44ee-8caa-a79f16b0a6cd","connectionId":184,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:46.567+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn182","msg":"Interrupted operation as its client disconnected","attr":{"opId":17267}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:46.567+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn182","msg":"Connection ended","attr":{"remote":"172.19.0.5:38550","uuid":"6533401b-9905-4168-823b-f12b718f164c","connectionId":182,"connectionCount":1}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:46.567+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn183","msg":"Connection ended","attr":{"remote":"172.19.0.5:38558","uuid":"52e74ed5-1601-46ef-b512-6ea6a41377aa","connectionId":183,"connectionCount":4}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:12:48 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:48 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:48 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1207) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.478+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57346","uuid":"5da02644-8527-46ba-a113-d8b3ec0a27a3","connectionId":186,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.507+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn186","msg":"client metadata","attr":{"remote":"172.19.0.5:57346","client":"conn186","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.568+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57356","uuid":"c0e2afda-2ea4-4a82-83c0-d35b97c5fad1","connectionId":187,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.568+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57370","uuid":"0396a5ec-be12-4858-bc9a-e227431dd2db","connectionId":188,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.601+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn187","msg":"client metadata","attr":{"remote":"172.19.0.5:57356","client":"conn187","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.603+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn188","msg":"client metadata","attr":{"remote":"172.19.0.5:57370","client":"conn188","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.999+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn188","msg":"Connection ended","attr":{"remote":"172.19.0.5:57370","uuid":"0396a5ec-be12-4858-bc9a-e227431dd2db","connectionId":188,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.999+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn187","msg":"Connection ended","attr":{"remote":"172.19.0.5:57356","uuid":"c0e2afda-2ea4-4a82-83c0-d35b97c5fad1","connectionId":187,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:48.999+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn186","msg":"Connection ended","attr":{"remote":"172.19.0.5:57346","uuid":"5da02644-8527-46ba-a113-d8b3ec0a27a3","connectionId":186,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:12:50 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:50 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:50 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1221) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.522+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57380","uuid":"72879034-a84d-496c-a58d-951adca9cfb8","connectionId":189,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.546+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn189","msg":"client metadata","attr":{"remote":"172.19.0.5:57380","client":"conn189","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.567+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57392","uuid":"13541e6b-602a-4cf9-a776-55d4e5aa7805","connectionId":190,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.568+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57406","uuid":"c6ecd4a1-571b-4a6e-be85-9996d90a8518","connectionId":191,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.569+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn190","msg":"client metadata","attr":{"remote":"172.19.0.5:57392","client":"conn190","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:50.570+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn191","msg":"client metadata","attr":{"remote":"172.19.0.5:57406","client":"conn191","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:57.235+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn189","msg":"Interrupted operation as its client disconnected","attr":{"opId":17433}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:57.235+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn190","msg":"Connection ended","attr":{"remote":"172.19.0.5:57392","uuid":"13541e6b-602a-4cf9-a776-55d4e5aa7805","connectionId":190,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:57.235+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn191","msg":"Connection ended","attr":{"remote":"172.19.0.5:57406","uuid":"c6ecd4a1-571b-4a6e-be85-9996d90a8518","connectionId":191,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:57.236+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn189","msg":"Connection ended","attr":{"remote":"172.19.0.5:57380","uuid":"72879034-a84d-496c-a58d-951adca9cfb8","connectionId":189,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:12:58 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:58 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:12:58 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1235) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.745+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38800","uuid":"6648705e-d594-403f-99c7-8098594aae1f","connectionId":192,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.777+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn192","msg":"client metadata","attr":{"remote":"172.19.0.5:38800","client":"conn192","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.823+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38810","uuid":"37160aac-6a04-442d-9f70-d67cd169487f","connectionId":193,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.824+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38822","uuid":"8aae1515-5b61-4485-9eb2-f70ae0453702","connectionId":194,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.825+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn193","msg":"client metadata","attr":{"remote":"172.19.0.5:38810","client":"conn193","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:12:58.828+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn194","msg":"client metadata","attr":{"remote":"172.19.0.5:38822","client":"conn194","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:02.879+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn193","msg":"Connection ended","attr":{"remote":"172.19.0.5:38810","uuid":"37160aac-6a04-442d-9f70-d67cd169487f","connectionId":193,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:02.880+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn192","msg":"Interrupted operation as its client disconnected","attr":{"opId":17542}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:02.880+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn192","msg":"Connection ended","attr":{"remote":"172.19.0.5:38800","uuid":"6648705e-d594-403f-99c7-8098594aae1f","connectionId":192,"connectionCount":2}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:02.882+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn194","msg":"Connection ended","attr":{"remote":"172.19.0.5:38822","uuid":"8aae1515-5b61-4485-9eb2-f70ae0453702","connectionId":194,"connectionCount":1}}
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:13:04 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:04 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:04 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1249) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.209+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38824","uuid":"b28874cb-86a5-41a1-b8ed-9e408feae661","connectionId":195,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.234+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn195","msg":"client metadata","attr":{"remote":"172.19.0.5:38824","client":"conn195","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.256+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38838","uuid":"e34d8772-145c-4b1c-945a-44dd3aaa508a","connectionId":196,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.256+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:38852","uuid":"66a5f4e5-b195-4fde-9def-dafd2ae190a1","connectionId":197,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.258+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn196","msg":"client metadata","attr":{"remote":"172.19.0.5:38838","client":"conn196","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:04.260+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn197","msg":"client metadata","attr":{"remote":"172.19.0.5:38852","client":"conn197","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:14.752+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:58498","uuid":"e54790a1-a4e5-4a3b-ad56-19c6fa7c2f5e","connectionId":198,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:14.753+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn198","msg":"client metadata","attr":{"remote":"172.19.0.5:58498","client":"conn198","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:22.845+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn198","msg":"Connection ended","attr":{"remote":"172.19.0.5:58498","uuid":"e54790a1-a4e5-4a3b-ad56-19c6fa7c2f5e","connectionId":198,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:22.845+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn197","msg":"Connection ended","attr":{"remote":"172.19.0.5:38852","uuid":"66a5f4e5-b195-4fde-9def-dafd2ae190a1","connectionId":197,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:22.845+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn196","msg":"Connection ended","attr":{"remote":"172.19.0.5:38838","uuid":"e34d8772-145c-4b1c-945a-44dd3aaa508a","connectionId":196,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:22.845+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn195","msg":"Interrupted operation as its client disconnected","attr":{"opId":17744}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:22.846+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn195","msg":"Connection ended","attr":{"remote":"172.19.0.5:38824","uuid":"b28874cb-86a5-41a1-b8ed-9e408feae661","connectionId":195,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:13:24 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:24 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:24 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1263) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.621+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:34372","uuid":"786cbe48-ba73-4ea9-8e28-8baf365f64d1","connectionId":199,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.650+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn199","msg":"client metadata","attr":{"remote":"172.19.0.5:34372","client":"conn199","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.676+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:34376","uuid":"0256ba10-c466-44aa-94d6-ff368bee8a19","connectionId":200,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.676+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:34380","uuid":"067500ef-7d25-4cb8-b7b3-7a269ff13cca","connectionId":201,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.678+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn200","msg":"client metadata","attr":{"remote":"172.19.0.5:34376","client":"conn200","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:24.679+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn201","msg":"client metadata","attr":{"remote":"172.19.0.5:34380","client":"conn201","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:29.059+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn199","msg":"Interrupted operation as its client disconnected","attr":{"opId":17881}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:29.059+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn200","msg":"Connection ended","attr":{"remote":"172.19.0.5:34376","uuid":"0256ba10-c466-44aa-94d6-ff368bee8a19","connectionId":200,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:29.059+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn201","msg":"Connection ended","attr":{"remote":"172.19.0.5:34380","uuid":"067500ef-7d25-4cb8-b7b3-7a269ff13cca","connectionId":201,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:29.059+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn199","msg":"Connection ended","attr":{"remote":"172.19.0.5:34372","uuid":"786cbe48-ba73-4ea9-8e28-8baf365f64d1","connectionId":199,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:13:30 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:30 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:13:30 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1277) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.444+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57188","uuid":"1c9bb36e-9acc-4ff6-a9a0-e60cd72cd6ce","connectionId":202,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.469+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn202","msg":"client metadata","attr":{"remote":"172.19.0.5:57188","client":"conn202","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.492+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57196","uuid":"91f91e00-183e-4e8c-a92f-c5f97e15d6bd","connectionId":203,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.492+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57200","uuid":"cd45512b-1ce9-41fd-aa09-6a4dac8d8d54","connectionId":204,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.494+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn203","msg":"client metadata","attr":{"remote":"172.19.0.5:57196","client":"conn203","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:30.495+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn204","msg":"client metadata","attr":{"remote":"172.19.0.5:57200","client":"conn204","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:13:36 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:13:38 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:13:40 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:40.988+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:35774","uuid":"af669d65-8307-4940-a04a-6a3cf1251d6a","connectionId":205,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:13:40.990+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn205","msg":"client metadata","attr":{"remote":"172.19.0.5:35774","client":"conn205","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:13:41 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:00 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:01 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:03 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:04 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:20.125+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn204","msg":"Connection ended","attr":{"remote":"172.19.0.5:57200","uuid":"cd45512b-1ce9-41fd-aa09-6a4dac8d8d54","connectionId":204,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:20.125+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn205","msg":"Connection ended","attr":{"remote":"172.19.0.5:35774","uuid":"af669d65-8307-4940-a04a-6a3cf1251d6a","connectionId":205,"connectionCount":3}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:20.126+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn202","msg":"Interrupted operation as its client disconnected","attr":{"opId":18480}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:20.127+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn202","msg":"Connection ended","attr":{"remote":"172.19.0.5:57188","uuid":"1c9bb36e-9acc-4ff6-a9a0-e60cd72cd6ce","connectionId":202,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:20.134+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn203","msg":"Connection ended","attr":{"remote":"172.19.0.5:57196","uuid":"91f91e00-183e-4e8c-a92f-c5f97e15d6bd","connectionId":203,"connectionCount":1}}
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:14:21 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:14:21 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:14:21 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1291) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.480+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:54854","uuid":"dffbc543-5dad-475f-9b01-6152f65ab9f8","connectionId":206,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.501+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn206","msg":"client metadata","attr":{"remote":"172.19.0.5:54854","client":"conn206","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.533+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:54856","uuid":"5ac8ba41-0dfe-4775-b01a-a1515af6689e","connectionId":207,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.535+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:54860","uuid":"554b7f7a-8ea1-4407-84ab-bdb42f4ffd9f","connectionId":208,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.536+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn207","msg":"client metadata","attr":{"remote":"172.19.0.5:54856","client":"conn207","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:21.539+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn208","msg":"client metadata","attr":{"remote":"172.19.0.5:54860","client":"conn208","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:32.017+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:49202","uuid":"99bc1e8f-66c7-4dc4-8bbf-2ec3add3e06c","connectionId":209,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:32.019+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn209","msg":"client metadata","attr":{"remote":"172.19.0.5:49202","client":"conn209","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:33.272+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn209","msg":"Connection ended","attr":{"remote":"172.19.0.5:49202","uuid":"99bc1e8f-66c7-4dc4-8bbf-2ec3add3e06c","connectionId":209,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:33.272+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn208","msg":"Connection ended","attr":{"remote":"172.19.0.5:54860","uuid":"554b7f7a-8ea1-4407-84ab-bdb42f4ffd9f","connectionId":208,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:33.272+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn207","msg":"Connection ended","attr":{"remote":"172.19.0.5:54856","uuid":"5ac8ba41-0dfe-4775-b01a-a1515af6689e","connectionId":207,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:33.273+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn206","msg":"Interrupted operation as its client disconnected","attr":{"opId":18754}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:33.273+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn206","msg":"Connection ended","attr":{"remote":"172.19.0.5:54854","uuid":"dffbc543-5dad-475f-9b01-6152f65ab9f8","connectionId":206,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:14:35 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:14:35 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:14:35 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1305) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.384+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:49212","uuid":"ad74a40f-e387-47b9-8cfc-250909128885","connectionId":210,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.404+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn210","msg":"client metadata","attr":{"remote":"172.19.0.5:49212","client":"conn210","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.426+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:49224","uuid":"a3b40fc2-4fd1-4150-9659-ea9b66df8fb1","connectionId":211,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.427+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:49226","uuid":"2450ba32-6fce-4363-8d1c-47fa138e57eb","connectionId":212,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.429+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn212","msg":"client metadata","attr":{"remote":"172.19.0.5:49226","client":"conn212","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:35.429+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn211","msg":"client metadata","attr":{"remote":"172.19.0.5:49224","client":"conn211","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable token is false
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:36 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is false
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:39 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is false
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:14:40 GMT] "POST /login HTTP/1.1" 200 228 "-" "PostmanRuntime/7.29.2"
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:45.920+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:37488","uuid":"b4751f8b-ca72-4f59-895c-b203a9c6f090","connectionId":213,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:14:45.922+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn213","msg":"client metadata","attr":{"remote":"172.19.0.5:37488","client":"conn213","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:10.205+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn213","msg":"Connection ended","attr":{"remote":"172.19.0.5:37488","uuid":"b4751f8b-ca72-4f59-895c-b203a9c6f090","connectionId":213,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:10.206+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn211","msg":"Connection ended","attr":{"remote":"172.19.0.5:49224","uuid":"a3b40fc2-4fd1-4150-9659-ea9b66df8fb1","connectionId":211,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:10.206+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn210","msg":"Interrupted operation as its client disconnected","attr":{"opId":19194}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:10.206+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn212","msg":"Connection ended","attr":{"remote":"172.19.0.5:49226","uuid":"2450ba32-6fce-4363-8d1c-47fa138e57eb","connectionId":212,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:10.206+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn210","msg":"Connection ended","attr":{"remote":"172.19.0.5:49212","uuid":"ad74a40f-e387-47b9-8cfc-250909128885","connectionId":210,"connectionCount":1}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:15:11 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:11 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:11 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1318) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.420+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:44448","uuid":"d42dcac1-863d-4a98-afa2-1457da25679d","connectionId":214,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.443+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn214","msg":"client metadata","attr":{"remote":"172.19.0.5:44448","client":"conn214","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.464+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:44460","uuid":"56f7a779-eec1-41a5-ae7d-8bd568f20580","connectionId":215,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.465+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:44464","uuid":"c8ffe779-a99f-4bfe-9c6d-3c3da087db90","connectionId":216,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.466+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn215","msg":"client metadata","attr":{"remote":"172.19.0.5:44460","client":"conn215","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:11.467+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn216","msg":"client metadata","attr":{"remote":"172.19.0.5:44464","client":"conn216","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:16.591+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn214","msg":"Interrupted operation as its client disconnected","attr":{"opId":19275}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:16.591+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn216","msg":"Connection ended","attr":{"remote":"172.19.0.5:44464","uuid":"c8ffe779-a99f-4bfe-9c6d-3c3da087db90","connectionId":216,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:16.592+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn215","msg":"Connection ended","attr":{"remote":"172.19.0.5:44460","uuid":"56f7a779-eec1-41a5-ae7d-8bd568f20580","connectionId":215,"connectionCount":2}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:16.592+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn214","msg":"Connection ended","attr":{"remote":"172.19.0.5:44448","uuid":"d42dcac1-863d-4a98-afa2-1457da25679d","connectionId":214,"connectionCount":1}}
+blog-app         | /user/src/app/src/controller/Auth.js:33
+blog-app         |                 req.se
+blog-app         |                    ^
+blog-app         | 
+blog-app         | SyntaxError: Unexpected token '.'
+blog-app         |     at internalCompileFunction (node:internal/vm:73:18)
+blog-app         |     at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+blog-app         |     at Module._compile (node:internal/modules/cjs/loader:1239:27)
+blog-app         |     at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+blog-app         |     at Module.load (node:internal/modules/cjs/loader:1133:32)
+blog-app         |     at Module._load (node:internal/modules/cjs/loader:972:12)
+blog-app         |     at Module.require (node:internal/modules/cjs/loader:1157:19)
+blog-app         |     at require (node:internal/modules/helpers:119:18)
+blog-app         |     at Object.<anonymous> (/user/src/app/src/routes/user.js:4:18)
+blog-app         |     at Module._compile (node:internal/modules/cjs/loader:1275:14)
+blog-app         | 
+blog-app         | Node.js v19.7.0
+blog-app         | [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:15:34 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:34 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:34 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1344) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.684+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57182","uuid":"85fb9fe3-6ded-43ad-af53-983ea9942731","connectionId":217,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.710+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn217","msg":"client metadata","attr":{"remote":"172.19.0.5:57182","client":"conn217","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57192","uuid":"c3ed5a80-c5df-4822-b3bc-405bc93290d4","connectionId":218,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.733+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:57196","uuid":"d36d1e51-8d3e-4605-8086-a96659cfd71b","connectionId":219,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.734+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn218","msg":"client metadata","attr":{"remote":"172.19.0.5:57192","client":"conn218","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:34.735+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn219","msg":"client metadata","attr":{"remote":"172.19.0.5:57196","client":"conn219","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable token is false
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:36 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is false
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:41 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:45.230+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:53510","uuid":"00da0526-ade8-4290-ac50-6a338ccc855d","connectionId":220,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:45.233+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn220","msg":"client metadata","attr":{"remote":"172.19.0.5:53510","client":"conn220","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | [32m[nodemon] restarting due to changes...[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:49.445+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn217","msg":"Interrupted operation as its client disconnected","attr":{"opId":19707}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:49.445+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn218","msg":"Connection ended","attr":{"remote":"172.19.0.5:57192","uuid":"c3ed5a80-c5df-4822-b3bc-405bc93290d4","connectionId":218,"connectionCount":4}}
+blog-app         | [32m[nodemon] starting `node src/index.js`[39m
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:49.446+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn219","msg":"Connection ended","attr":{"remote":"172.19.0.5:57196","uuid":"d36d1e51-8d3e-4605-8086-a96659cfd71b","connectionId":219,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:49.446+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn217","msg":"Connection ended","attr":{"remote":"172.19.0.5:57182","uuid":"85fb9fe3-6ded-43ad-af53-983ea9942731","connectionId":217,"connectionCount":2}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:49.447+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn220","msg":"Connection ended","attr":{"remote":"172.19.0.5:53510","uuid":"00da0526-ade8-4290-ac50-6a338ccc855d","connectionId":220,"connectionCount":1}}
+blog-app         | mongodb://blog-mongo:27017/blogs
+blog-app         | Connectedto MONGODB at URI of : mongodb://blog-mongo:27017/blogs
+blog-app         | Thu, 02 Mar 2023 10:15:51 GMT morgan deprecated undefined format: specify a format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:51 GMT morgan deprecated default format: use combined format at src/index.js:36:61
+blog-app         | Thu, 02 Mar 2023 10:15:51 GMT body-parser deprecated undefined extended: provide extended option at src/index.js:37:42
+blog-app         | (node:1358) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+blog-app         | (Use `node --trace-deprecation ...` to show where the warning was created)
+blog-app         | Blog Ser Is 80
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.409+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:36354","uuid":"0878ce21-cea6-4730-9e81-0b933700f1f6","connectionId":221,"connectionCount":2}}
+blog-app         | Redis Caching Server is Connected! at redis://blog-redis:6379/
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.436+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn221","msg":"client metadata","attr":{"remote":"172.19.0.5:36354","client":"conn221","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.461+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:36368","uuid":"937b744d-3945-4356-a92f-0de08dbdace6","connectionId":222,"connectionCount":3}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.461+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:36378","uuid":"7f4c70d1-ae09-46fb-a15c-e276a095c26d","connectionId":223,"connectionCount":4}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.463+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn222","msg":"client metadata","attr":{"remote":"172.19.0.5:36368","client":"conn222","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:15:51.464+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn223","msg":"client metadata","attr":{"remote":"172.19.0.5:36378","client":"conn223","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:53 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:54 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:56 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:57 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:15:58 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-mongo       | {"t":{"$date":"2023-03-02T10:16:01.949+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.5:54738","uuid":"9b812e49-71a5-4999-bd9c-386b34a554b1","connectionId":224,"connectionCount":5}}
+blog-mongo       | {"t":{"$date":"2023-03-02T10:16:01.951+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn224","msg":"client metadata","attr":{"remote":"172.19.0.5:54738","client":"conn224","doc":{"driver":{"name":"nodejs|Mongoose","version":"4.14.0"},"os":{"type":"Linux","name":"linux","architecture":"x64","version":"5.15.0-60-generic"},"platform":"Node.js v19.7.0, LE (unified)","version":"4.14.0|6.10.0"}}}
+blog-app         | cahchable token is true
+blog-app         | recalculating the token
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:16:46 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:16:58 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:16:59 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
+blog-app         | cahchable token is true
+blog-app         | ::ffff:172.19.0.1 - - [Thu, 02 Mar 2023 10:17:01 GMT] "POST /login HTTP/1.1" 200 242 "-" "PostmanRuntime/7.29.2"
