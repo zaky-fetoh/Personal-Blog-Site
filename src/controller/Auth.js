@@ -51,14 +51,13 @@ exports.vertify = async(req, res, next)=>{
      * to the NextMiddleWare.
      *******/
 
-    try{
-        const jtoken = req.headers["authorization"].split(" ")[1];
+    try{const jtoken = req.headers["authorization"].split(" ")[1];
         const decodedToken = await jwt.verify(jtoken, JWT_KEY);
         req.user_id = decodedToken.user_id;
         next();
     }catch(e){
         return res.status(402).json({
-            ok:false, message: "invalid Token",
+            ok:false, message: "invalid Token | " + e.message,
         });
     }
 };
