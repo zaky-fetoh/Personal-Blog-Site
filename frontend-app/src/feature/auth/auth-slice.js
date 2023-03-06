@@ -37,8 +37,8 @@ const signUpThank = createAsyncThunk("auth/signUp",
 const verifyTokenThunk = createAsyncThunk("auth/verifyToken",
     async (_, thunkAPI) => {
         try {
-            const login = await authAPI.verifyToken()
-            return login
+            const login = await authAPI.verifyToken();
+            return login;
         } catch (e) {
             return thunkAPI.rejectWithValue(e.message)
         }
@@ -95,7 +95,13 @@ const authSlice = createSlice({
             state.loading = false;
             state.error = null;
         })
-
+        builder.addCase(verifyTokenThunk.rejected,(state,_)=>{
+            localStorage.removeItem("token");
+            state.error = null;
+            state.loading = false;
+            state.logedIn = false;
+            state.token = "";
+        })
     }
 })
 
@@ -105,5 +111,6 @@ export const reducer = authSlice.reducer;
 export const actions = {
     login: loginThunk,
     signup: signUpThank,
+    verifyToken: verifyTokenThunk,
     ...authSlice.actions
 }

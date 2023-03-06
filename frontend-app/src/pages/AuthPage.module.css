@@ -1,0 +1,16 @@
+.AuthCont{
+    text-align: center;
+}
+
+header{
+    margin: 0%;
+    margin-bottom: 5%;
+    padding: 7px;
+    background-color: rgb(196, 162, 228);
+}
+
+header p {
+    color: azure;
+    font-size: 1.5em;
+    margin: 0%;
+}

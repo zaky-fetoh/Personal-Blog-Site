@@ -18,14 +18,15 @@ export default function CreatForm(initialValues, onSubmit, nameBtn="Submit") {
             {Object.keys(initialValues).map(e => {
                 return <> <input
                     value={formh.values[e]} id={e}
-                    type={e==="password"?e:"text"}
+                    type={e.includes("assword")?"password":"text"}
                     placeholder={e} key={e}
                     onChange={formh.handleChange}
                     onBlur={formh.handleBlur}
                 />
                 <div style={{
                     color:"red"
-                }}>{formh.touched[e]&& formh.errors[e]}</div>
+                }}>{formh.touched[e]&& formh.errors[e]}
+                </div>
                 </>
             })}
             <button type="submit">{nameBtn}</button>

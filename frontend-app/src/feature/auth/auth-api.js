@@ -38,6 +38,7 @@ export const signUp = async ({ userName, password }) => {
 
 export const verifyToken = async () => {
     const token = localStorage.getItem("token");
+    if(!token) throw new Error("NoToken");
     const res = await fetch(UrlApi + "verify", {
         method: "GET",
         headers: {

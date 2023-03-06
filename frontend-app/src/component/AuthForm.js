@@ -10,12 +10,12 @@ export default function AuthForm(props){
     const [InUp, setInUp] = useState(true)
     const auth = useSelector((state)=>state.auth)
     const dispatch = useDispatch()
-
+    const [err, setErr] = useState("")
     
 
     const signUpHandler = (values, f)=>{
         if(values.password !== values.confirmPassword)
-            return f.errors.confirmPassword = "does not match";
+            return setErr("Confirmation password Does Not match");
         dispatch(authAct.signup(values))
     };
     const SignUpForm = formCreator({
@@ -37,7 +37,8 @@ export default function AuthForm(props){
             setInUp(!InUp)}}
         href="">{(InUp && "Sign Up" )|| "Sign In" }</a> 
         </>}
-        <p style={{color:"red"}}
-        >{!!auth.error && auth.error}</p>
+        <p style={{color:"red"}}>{!!auth.error && auth.error}
+        {!!err && err}
+        </p>
     </div>
 }
