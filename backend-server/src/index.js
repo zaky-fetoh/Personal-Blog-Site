@@ -10,6 +10,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const morgan = require("morgan");
 mongoose.pluralize(null);
+const cors = require('cors');
 
 
 const userRoutes = require("./routes/user")
@@ -34,7 +35,7 @@ console.log(MONGODB_URI);
         process.exit(14);
     }
     const ser = express().use(TimerMiddleware.usetimer).use(morgan())
-        .use(express.json()).use(express.urlencoded())
+        .use(express.json()).use(express.urlencoded()).use(cors())
         .use("/user", userRoutes)
         .use("/blog", contAuth.vertify, blogRoutes)
         .post("/login", contAuth.Login)

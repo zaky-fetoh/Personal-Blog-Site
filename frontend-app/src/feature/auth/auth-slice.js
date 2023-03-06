@@ -3,21 +3,20 @@ import * as authAPI from "./auth-api"
 
 const initialState = {
     token: "",
-    error: "",
+    error: null,
     logedIn: false,
     loading: false,
 }
 
 const loginThunk = createAsyncThunk("auth/login", async (loginInfo, thunkAPI) => {
-
     try {
-        const res = authAPI.login(loginInfo);
+        const res = await authAPI.login(loginInfo);
         return {
             token: res.JWT_Token,
             login: true,
         }
     } catch (e) {
-        thunkAPI.rejectWithValue(e.message);
+        return thunkAPI.rejectWithValue(e.message);
     }
 })
 
@@ -32,16 +31,18 @@ const authSlice = createSlice({
     extraReducers: (builder) => {
         //Login Hundlers 
         builder.addCase(loginThunk.pending, (state, action) => {
-            state.loading = true;
-        });
+            state.loading = true;            
+        }); 
         builder.addCase(loginThunk.fulfilled, (state, action) => {
+            console.log(action)
             state.loading = false;
-            state.error = "";
+            state.error = null;
             state.token = action.payload.token;
             state.logedIn = true;
         });
         builder.addCase(loginThunk.rejected, (state, action) => {
-            state.error = action.error;
+            console.log(action)
+            state.error = action.payload;
             state.loading = false;
             state.logedIn = false;
             state.token = "";
