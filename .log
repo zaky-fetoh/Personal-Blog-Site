@@ -20952,3 +20952,22 @@ front-app        |
 front-app        | Search for the keywords to learn more about each error.
 front-app        | 
 front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/feature/auth/auth-slice.js
+front-app        |   Line 32:45:  'res' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 35:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/feature/auth/auth-slice.js
+front-app        |   Line 32:45:  'res' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
