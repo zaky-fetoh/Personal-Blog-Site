@@ -94,14 +94,17 @@ const authSlice = createSlice({
             state.logedIn = action.payload;
             state.loading = false;
             state.error = null;
-        })
+        });
         builder.addCase(verifyTokenThunk.rejected,(state,_)=>{
             localStorage.removeItem("token");
             state.error = null;
             state.loading = false;
             state.logedIn = false;
             state.token = "";
-        })
+        });
+        builder.addCase(verifyTokenThunk.pending, (state, action) => {
+            state.loading = true;
+        });
     }
 })
 

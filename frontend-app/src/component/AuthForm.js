@@ -7,15 +7,15 @@ import styles from "./AuthForm.module.css"
 
 export default function AuthForm(props){
     // InUp switch is true for SignIn form and false for SignUp form
-    const [InUp, setInUp] = useState(true)
     const auth = useSelector((state)=>state.auth)
-    const dispatch = useDispatch()
+    const [InUp, setInUp] = useState(true)
     const [err, setErr] = useState("")
+    const dispatch = useDispatch()
     
 
     const signUpHandler = (values, f)=>{
         if(values.password !== values.confirmPassword)
-            return setErr("Confirmation password Does Not match");
+            return setErr("Confirmation password Does Not match !!");
         dispatch(authAct.signup(values))
     };
     const SignUpForm = formCreator({
@@ -32,12 +32,11 @@ export default function AuthForm(props){
     return <div className={styles.formContainer}>
         {(auth.loading && "Loding ...") || <>
         {(InUp && <SignInForm/>) || <SignUpForm/>}
-        <a onClick={(e)=>{
-            e.preventDefault()
+        <a onClick={(e)=>{e.preventDefault();
             setInUp(!InUp)}}
         href="">{(InUp && "Sign Up" )|| "Sign In" }</a> 
         </>}
-        <p style={{color:"red"}}>{!!auth.error && auth.error}
+        <p style={{color:"blue"}}>{!!auth.error && auth.error}
         {!!err && err}
         </p>
     </div>
