@@ -72,8 +72,18 @@ const blogSlice = createSlice({
             states.error = action.payload;
             states.loading = false; 
         });
-        //
-
+        //Adding MyBloGs 
+        builder(getMyBlog.pending,(states,action)=>{
+            states.loading = true;
+        });
+        builder(getMyBlog.fulfilled,(states,action)=>{
+            states.loading = false;
+            states.myblogs =action.payload;
+        });
+        builder.addCase(getMyBlog.rejected,(states, action)=>{
+            states.error = action.payload;
+            states.loading = false; 
+        });
 
     },
 })
