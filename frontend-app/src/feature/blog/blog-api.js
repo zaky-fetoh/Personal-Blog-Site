@@ -1,5 +1,3 @@
-
-
 const BlogUrl  = "http://localhost:300/blog/";
 
 
