@@ -12,7 +12,9 @@ export default function AuthForm(props){
     const dispatch = useDispatch()
 
     const signUpHandler = (values, f)=>{
-        
+        if(values.password !== values.confirmPassword)
+            return f.errors.confirmPassword = "does not match";
+        dispatch(authAct.signup(values))
     };
     const SignUpForm = formCreator({
         userName:"", password:"", confirmPassword:"", 

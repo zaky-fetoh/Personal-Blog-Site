@@ -18,4 +18,20 @@ export const login = async({userName, password})=>{
     else throw new Error(reqjson.message);
 }
 
+export const signUp = async({userName, password})=>{
+    const req =await fetch(UrlApi+"user",{
+        method:"POST", 
+        body:JSON.stringify({
+            userName, password
+        }),
+        headers:{
+            "Content-Type":"application/json",
+            'Access-Control-Allow-Origin': '*',
+        },
+    })
+    const reqjson= await req.json()
+    if(reqjson.ok) return reqjson;
+    else throw new Error(reqjson.message);
+}
+
 
