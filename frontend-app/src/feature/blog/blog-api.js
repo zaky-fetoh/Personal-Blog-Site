@@ -10,7 +10,12 @@ export const getBlogHeaders = async(token)=>{
         }
     });
     const jsonData = await req.json(); 
-    if(jsonData.ok) return jsonData.data;
+    if(jsonData.ok) return {
+        id:jsonData.data.blog_id,
+        title:jsonData.data.blog_title,
+        time:jsonData.data.blog_time,
+        ower:jsonData.data.blog_owner,
+    }
     else throw new Error(jsonData.message);
 }
 

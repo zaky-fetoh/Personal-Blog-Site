@@ -4,9 +4,11 @@ import{ useDispatch, useSelector }from "react-redux"
 import { useEffect } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css"
+import {BlogHeaderPage} from "./pages/BlogHeaderPage";
+import {MyBlogPage} from "./pages/MyBlogPage"
 
 function Name(props){
-  return <div>
+  return <div className={styles.titling}>
       <p>ZAky</p>
   </div>
 }
@@ -28,10 +30,10 @@ function LogOut(props){
 
 function Home(props){
   return <><header>
-  <Name/> <NavHeader/>
+  <Name/> <NavHeader/> 
   </header> <Routes>
     <Route index element={<BlogHeaderPage/>} />
-    <Route path="/myBlogs" element={<MyBlogsPage/>}/>
+    <Route path="/myBlogs" element={<MyBlogPage/>}/>
     <Route path="/:blogId" element={<BlogPage/>}/>
     <Route path="/logout" element={<LogOut/>}/>
     <Route path="/*" element={<NotFoundPage/>}/>

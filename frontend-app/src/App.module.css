@@ -2,6 +2,14 @@ body{
     margin: 0%;
     background-color: rgb(206, 186, 172);
 }
-.headerDiv{
-    width: fit-content;
+header{
+    text-align: center;
+}
+
+header div {
+    display: inline-block;
+}
+
+.titling{ 
+    padding-right: 50%;
 }
