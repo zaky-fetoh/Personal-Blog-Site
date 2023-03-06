@@ -1,22 +1,22 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
-import authAPI  from "./auth-api"
+import * as authAPI from "./auth-api"
 
 const initialState = {
-    token: "", 
-    error:"",
-    logedIn:false,
-    loading:false,
+    token: "",
+    error: "",
+    logedIn: false,
+    loading: false,
 }
 
-const loginThunk = createAsyncThunk("auth/login",async(loginInfo, thunkAPI)=>{
-    
-    try{
+const loginThunk = createAsyncThunk("auth/login", async (loginInfo, thunkAPI) => {
+
+    try {
         const res = authAPI.login(loginInfo);
-        return{
-            token:res.JWT_Token, 
+        return {
+            token: res.JWT_Token,
             login: true,
         }
-    }catch(e){
+    } catch (e) {
         thunkAPI.rejectWithValue(e.message);
     }
 })
@@ -24,22 +24,25 @@ const loginThunk = createAsyncThunk("auth/login",async(loginInfo, thunkAPI)=>{
 
 
 const authSlice = createSlice({
-    name:"auth", 
+    name: "auth",
     initialState,
-    extraReducers:(builer)=>{
+    reducers: {
+        logout: () => initialState,
+    },
+    extraReducers: (builder) => {
         //Login Hundlers 
-        builder.addCase(loginThunk.pending,(state, action)=>{
+        builder.addCase(loginThunk.pending, (state, action) => {
             state.loading = true;
         });
-        builer.addCase(loginThunk.fulfilled,(state,action)=>{
-            state.loading = false; 
-            state.error ="";
+        builder.addCase(loginThunk.fulfilled, (state, action) => {
+            state.loading = false;
+            state.error = "";
             state.token = action.payload.token;
             state.logedIn = true;
         });
-        builer.addCase(loginThunk.rejected,(state, action)=>{
-            state.error = action.error ; 
-            state.loading = false; 
+        builder.addCase(loginThunk.rejected, (state, action) => {
+            state.error = action.error;
+            state.loading = false;
             state.logedIn = false;
             state.token = "";
         });
@@ -48,7 +51,8 @@ const authSlice = createSlice({
 
 
 
-export const reducer = authSlice.reducer ; 
-export const actions ={
-    login:  loginThunk,
+export const reducer = authSlice.reducer;
+export const actions = {
+    login: loginThunk,
+    ...authSlice.actions
 }
