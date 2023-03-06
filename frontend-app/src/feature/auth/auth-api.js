@@ -35,3 +35,17 @@ export const signUp = async({userName, password})=>{
 }
 
 
+
+export const verifyToken = async()=>{
+    const token = localStorage.getItem("token");
+    const res = await fetch(UrlApi+"verify",{
+        method:"GET",
+        headers:{
+            "Authorization": `Bearer ${token}`,
+            'Access-Control-Allow-Origin': '*',
+        }
+    })
+    const data =  await res.json(); 
+    if(data.ok) return true;
+    else throw new Error(data.message)
+}

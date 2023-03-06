@@ -39,7 +39,8 @@ console.log(MONGODB_URI);
         .use("/user", userRoutes)
         .use("/blog", contAuth.vertify, blogRoutes)
         .post("/login", contAuth.Login)
-        .get("/verify", contAuth.vertify)
+        .get("/verify", contAuth.vertify,(req,res)=>res.status(200).json({
+                ok:true,}))
 
         .listen(PORT, () => {
             console.log(`Blog Ser Is ${ser.address().port}`)

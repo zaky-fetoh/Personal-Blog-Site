@@ -11,6 +11,8 @@ export default function AuthForm(props){
     const auth = useSelector((state)=>state.auth)
     const dispatch = useDispatch()
 
+    
+
     const signUpHandler = (values, f)=>{
         if(values.password !== values.confirmPassword)
             return f.errors.confirmPassword = "does not match";
