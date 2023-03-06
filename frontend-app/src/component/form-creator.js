@@ -1,10 +1,7 @@
 import formik from "formik";
 import yup from "yup"
 
-
-
-
-export default function CreatForm(initialValues, onSubmit) {
+export default function CreatForm(initialValues, onSubmit, nameBtn="Submit") {
 
     const validationObj = {};
     initialValues.keys().forEach(k => {
@@ -28,6 +25,7 @@ export default function CreatForm(initialValues, onSubmit) {
                 <div>{formh.touched[k]&& formh.errors[k]}</div>
                 </>
             })}
+            <button type="submit">{nameBtn}</button>
         </form>
     }
 }
