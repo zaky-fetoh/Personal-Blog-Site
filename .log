@@ -1695,3 +1695,1739 @@ blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:43:10 GMT] "GET /w
 blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:43:19 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
 blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:43:35 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
 blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:44:07 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:45:11 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:47:19 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 11:51:35 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:00:07 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './' in '/user/src/app/src/component'
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 6:8:  'styles' is defined but never used  no-unused-vars
+front-app        | 
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-24
+front-app        | Module not found: Error: Can't resolve './' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.' in '/user/src/app/src/component'
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 6:8:  'styles' is defined but never used  no-unused-vars
+front-app        | 
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-29
+front-app        | Module not found: Error: Can't resolve './Auth.' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.m' in '/user/src/app/src/component'
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 6:8:  'styles' is defined but never used  no-unused-vars
+front-app        | 
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-30
+front-app        | Module not found: Error: Can't resolve './Auth.m' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 6:8:  'styles' is defined but never used  no-unused-vars
+front-app        | 
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-39
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        | Syntax error: JSX attributes must only be assigned a non-empty expression. (24:26) (24:26)
+front-app        | ERROR in ./src/component/AuthForm.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/AuthForm.js: JSX attributes must only be assigned a non-empty expression. (24:26)
+front-app        | 
+front-app        |   22 |     }, signInHandler,"SignIn");
+front-app        |   23 |
+front-app        | > 24 |     return <div className={}>
+front-app        |      |                           ^
+front-app        |   25 |         {(InUp && <SignInForm/>) || <SignUpForm/> }
+front-app        |   26 |         <p onClick={()=>setInUp(!InUp)}>{(InUp && "Sign Up" )|| "Sign In" }</p>
+front-app        |   27 |     </div>
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6822:16)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:61)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseBlock (/user/src/app/node_modules/@babel/parser/lib/index.js:13101:10)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:11911:24)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:5112:18)
+front-app        |     at FlowParserMixin.parseFunctionBodyAndFinish (/user/src/app/node_modules/@babel/parser/lib/index.js:11897:10)
+front-app        |     at FlowParserMixin.parseFunctionBodyAndFinish (/user/src/app/node_modules/@babel/parser/lib/index.js:5120:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:13256:12
+front-app        |     at FlowParserMixin.withSmartMixTopicForbiddingContext (/user/src/app/node_modules/@babel/parser/lib/index.js:12221:14)
+front-app        |     at FlowParserMixin.parseFunction (/user/src/app/node_modules/@babel/parser/lib/index.js:13255:10)
+front-app        |     at FlowParserMixin.parseExportDefaultExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:13740:19)
+front-app        |     at FlowParserMixin.parseExportDefaultExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:5183:18)
+front-app        |     at FlowParserMixin.parseExport (/user/src/app/node_modules/@babel/parser/lib/index.js:13667:25)
+front-app        |     at FlowParserMixin.parseExport (/user/src/app/node_modules/@babel/parser/lib/index.js:5312:24)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12660:27)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseModuleItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12525:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:36)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseProgram (/user/src/app/node_modules/@babel/parser/lib/index.js:12439:10)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 24:26:  Parsing error: JSX attributes must only be assigned a non-empty expression. (24:26)
+front-app        | 
+front-app        | webpack compiled with 2 errors
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        | Syntax error: Unexpected token (24:34) (24:34)
+front-app        | ERROR in ./src/component/AuthForm.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/AuthForm.js: Unexpected token (24:34)
+front-app        | 
+front-app        |   22 |     }, signInHandler,"SignIn");
+front-app        |   23 |
+front-app        | > 24 |     return <div className={styles.}>
+front-app        |      |                                   ^
+front-app        |   25 |         {(InUp && <SignInForm/>) || <SignUpForm/> }
+front-app        |   26 |         <p onClick={()=>setInUp(!InUp)}>{(InUp && "Sign Up" )|| "Sign In" }</p>
+front-app        |   27 |     </div>
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.parseIdentifierName (/user/src/app/node_modules/@babel/parser/lib/index.js:12019:18)
+front-app        |     at FlowParserMixin.parseIdentifier (/user/src/app/node_modules/@babel/parser/lib/index.js:12002:23)
+front-app        |     at FlowParserMixin.parseMember (/user/src/app/node_modules/@babel/parser/lib/index.js:10928:28)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:10905:21)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:5919:18)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10872:19)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:5885:18)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10863:17)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 24:34:  Parsing error: Unexpected token (24:34)
+front-app        | 
+front-app        | webpack compiled with 2 errors
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-39
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        | Syntax error: Unexpected token (24:34) (24:34)
+front-app        | ERROR in ./src/component/AuthForm.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/AuthForm.js: Unexpected token (24:34)
+front-app        | 
+front-app        |   22 |     }, signInHandler,"SignIn");
+front-app        |   23 |
+front-app        | > 24 |     return <div className={styles.}>
+front-app        |      |                                   ^
+front-app        |   25 |         {(InUp && <SignInForm/>) || <SignUpForm/> }
+front-app        |   26 |         <p onClick={()=>setInUp(!InUp)}>{(InUp && "Sign Up" )|| "Sign In" }</p>
+front-app        |   27 |     </div>
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.parseIdentifierName (/user/src/app/node_modules/@babel/parser/lib/index.js:12019:18)
+front-app        |     at FlowParserMixin.parseIdentifier (/user/src/app/node_modules/@babel/parser/lib/index.js:12002:23)
+front-app        |     at FlowParserMixin.parseMember (/user/src/app/node_modules/@babel/parser/lib/index.js:10928:28)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:10905:21)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:5919:18)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10872:19)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:5885:18)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10863:17)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 24:34:  Parsing error: Unexpected token (24:34)
+front-app        | 
+front-app        | webpack compiled with 2 errors
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-39
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-39
+front-app        | Module not found: Error: Can't resolve './Auth.module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:05:48 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:05:49 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:05:52 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:05:56 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:04 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:20 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:23 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:25 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:27 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './AuthForm  .module.css' in '/user/src/app/src/component'
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-45
+front-app        | Module not found: Error: Can't resolve './AuthForm  .module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Module not found: Error: Can't resolve './AuthForm  .module.css' in '/user/src/app/src/component'
+front-app        | ERROR in ./src/component/AuthForm.js 10:0-45
+front-app        | Module not found: Error: Can't resolve './AuthForm  .module.css' in '/user/src/app/src/component'
+front-app        | 
+front-app        | webpack compiled with 1 error
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:31 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:39 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:06:55 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:27 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:30 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:31 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:33 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:37 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:45 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:54 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:56 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:07:58 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:02 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:10 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:27 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (5:1)
+front-app        |   3 | }
+front-app        |   4 | 
+front-app        | > 5 | i
+front-app        |     | ^
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (5:1) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   3 | }
+front-app        |   4 | 
+front-app        | > 5 | i
+front-app        |     | ^
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:45 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:47 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:50 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:54 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:08:58 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:06 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:11 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:12 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:14 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (8:5)
+front-app        |    6 | button{
+front-app        |    7 |     font-size: 1em;
+front-app        | >  8 |     marg
+front-app        |      |     ^
+front-app        |    9 | }
+front-app        |   10 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (8:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |    6 | button{
+front-app        |    7 |     font-size: 1em;
+front-app        | >  8 |     marg
+front-app        |      |     ^
+front-app        |    9 | }
+front-app        |   10 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:18 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:26 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:32 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:33 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:35 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:39 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:47 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:51 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:53 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:09:57 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (10:5)
+front-app        |    8 |     margin: 5px;
+front-app        |    9 |     margin-top: 7px;
+front-app        | > 10 |     ba
+front-app        |      |     ^
+front-app        |   11 | }
+front-app        |   12 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (10:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |    8 |     margin: 5px;
+front-app        |    9 |     margin-top: 7px;
+front-app        | > 10 |     ba
+front-app        |      |     ^
+front-app        |   11 | }
+front-app        |   12 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:02 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:12 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (12:5)
+front-app        |   10 |     background-color: blueviolet;
+front-app        |   11 |     color: aliceblue;
+front-app        | > 12 |     back;
+front-app        |      |     ^
+front-app        |   13 | }
+front-app        |   14 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (12:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   10 |     background-color: blueviolet;
+front-app        |   11 |     color: aliceblue;
+front-app        | > 12 |     back;
+front-app        |      |     ^
+front-app        |   13 | }
+front-app        |   14 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (12:5)
+front-app        |   10 |     background-color: blueviolet;
+front-app        |   11 |     color: aliceblue;
+front-app        | > 12 |     bor;
+front-app        |      |     ^
+front-app        |   13 | }
+front-app        |   14 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (12:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   10 |     background-color: blueviolet;
+front-app        |   11 |     color: aliceblue;
+front-app        | > 12 |     bor;
+front-app        |      |     ^
+front-app        |   13 | }
+front-app        |   14 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:30 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:45 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:51 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (13:5)
+front-app        |   11 |     color: aliceblue;
+front-app        |   12 |     border: 2px red solid;
+front-app        | > 13 |     p
+front-app        |      |     ^
+front-app        |   14 | }
+front-app        |   15 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (13:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   11 |     color: aliceblue;
+front-app        |   12 |     border: 2px red solid;
+front-app        | > 13 |     p
+front-app        |      |     ^
+front-app        |   14 | }
+front-app        |   15 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:55 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (13:5)
+front-app        |   11 |     color: aliceblue;
+front-app        |   12 |     border: 2px red solid;
+front-app        | > 13 |     bor
+front-app        |      |     ^
+front-app        |   14 | }
+front-app        |   15 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (13:5) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   11 |     color: aliceblue;
+front-app        |   12 |     border: 2px red solid;
+front-app        | > 13 |     bor
+front-app        |      |     ^
+front-app        |   14 | }
+front-app        |   15 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:10:59 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:05 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:09 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:14 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:21 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:23 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | Syntax error: /user/src/app/src/component/AuthForm.module.css Unknown word (13:1)
+front-app        |   11 |     border-radius: 3px ;
+front-app        |   12 | }
+front-app        | > 13 | im
+front-app        |      | ^
+front-app        |   14 | 
+front-app        |   15 |
+front-app        | ERROR in ./src/component/AuthForm.module.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[6].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/AuthForm.module.css)
+front-app        | Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+front-app        | SyntaxError
+front-app        | 
+front-app        | (13:1) /user/src/app/src/component/AuthForm.module.css Unknown word
+front-app        | 
+front-app        |   11 |     border-radius: 3px ;
+front-app        |   12 | }
+front-app        | > 13 | im
+front-app        |      | ^
+front-app        |   14 | 
+front-app        |   15 |
+front-app        | 
+front-app        | webpack compiled with 1 error
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:27 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:34 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:41 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:44 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:51 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:11:56 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:12:01 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:12:07 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:12:17 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:12:37 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:13:09 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:14:13 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: JSX attributes must only be assigned a non-empty expression. (25:27) (25:27)
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: JSX attributes must only be assigned a non-empty expression. (25:27)
+front-app        | 
+front-app        |   23 |                     onBlur={formh.handleBlur}
+front-app        |   24 |                 />
+front-app        | > 25 |                 <div style={}>{formh.touched[e]&& formh.errors[e]}</div>
+front-app        |      |                            ^
+front-app        |   26 |                 </>
+front-app        |   27 |             })}
+front-app        |   28 |             <button type="submit">{nameBtn}</button>
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6822:16)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:61)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseBlock (/user/src/app/node_modules/@babel/parser/lib/index.js:13101:10)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:11911:24)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5110:70
+front-app        |     at FlowParserMixin.forwardNoArrowParamsConversionAt (/user/src/app/node_modules/@babel/parser/lib/index.js:5287:16)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:5110:19)
+front-app        |     at FlowParserMixin.parseArrowExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:11886:10)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11244:25)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6992:20)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10569:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 25:27:  Parsing error: JSX attributes must only be assigned a non-empty expression. (25:27)
+front-app        | 
+front-app        | webpack compiled with 2 errors
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 26:21:  'col' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 26:21:  'col' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 26:21:  'color' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 26:21:  'color' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | 
+front-app        | webpack compiled with 1 error
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:07 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:08 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:10 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:14 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:23 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:39 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        | Syntax error: Expected corresponding JSX closing tag for <a>. (26:75) (26:75)
+front-app        | ERROR in ./src/component/AuthForm.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/AuthForm.js: Expected corresponding JSX closing tag for <a>. (26:75)
+front-app        | 
+front-app        |   24 |     return <div className={styles.formContainer}>
+front-app        |   25 |         {(InUp && <SignInForm/>) || <SignUpForm/> }
+front-app        | > 26 |         <a onClick={()=>setInUp(!InUp)}>{(InUp && "Sign Up" )|| "Sign In" }</p>
+front-app        |      |                                                                            ^
+front-app        |   27 |     </div>
+front-app        |   28 | }
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6950:16)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:61)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseBlock (/user/src/app/node_modules/@babel/parser/lib/index.js:13101:10)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:11911:24)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:5112:18)
+front-app        |     at FlowParserMixin.parseFunctionBodyAndFinish (/user/src/app/node_modules/@babel/parser/lib/index.js:11897:10)
+front-app        |     at FlowParserMixin.parseFunctionBodyAndFinish (/user/src/app/node_modules/@babel/parser/lib/index.js:5120:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:13256:12
+front-app        |     at FlowParserMixin.withSmartMixTopicForbiddingContext (/user/src/app/node_modules/@babel/parser/lib/index.js:12221:14)
+front-app        |     at FlowParserMixin.parseFunction (/user/src/app/node_modules/@babel/parser/lib/index.js:13255:10)
+front-app        |     at FlowParserMixin.parseExportDefaultExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:13740:19)
+front-app        |     at FlowParserMixin.parseExportDefaultExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:5183:18)
+front-app        |     at FlowParserMixin.parseExport (/user/src/app/node_modules/@babel/parser/lib/index.js:13667:25)
+front-app        |     at FlowParserMixin.parseExport (/user/src/app/node_modules/@babel/parser/lib/index.js:5312:24)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12660:27)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseModuleItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12525:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:36)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseProgram (/user/src/app/node_modules/@babel/parser/lib/index.js:12439:10)
+front-app        |     at FlowParserMixin.parseTopLevel (/user/src/app/node_modules/@babel/parser/lib/index.js:12429:25)
+front-app        |     at FlowParserMixin.parseTopLevel (/user/src/app/node_modules/@babel/parser/lib/index.js:5954:28)
+front-app        |     at FlowParserMixin.parse (/user/src/app/node_modules/@babel/parser/lib/index.js:14250:10)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:75:  Parsing error: Expected corresponding JSX closing tag for <a>. (26:75)
+front-app        | 
+front-app        | webpack compiled with 2 errors
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled successfully!
+front-app        | webpack compiled successfully
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:57 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:58 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:15:59 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:00 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:01 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:03 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:05 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:09 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:14 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:16 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:19 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:25 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:35 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 27:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 27:13:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:50 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:54 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:16:57 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:03 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:07 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:12 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:18 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:22 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:24 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:30 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:37 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:17:50 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:18:08 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:18:43 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:18:47 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:18:53 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:18:59 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:12 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:28 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 20:28:  'fo' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 20:28:  'fo' is not defined  no-undef
+front-app        | 
+front-app        | Search for the keywords to learn more about each error.
+front-app        | 
+front-app        | webpack compiled with 1 error and 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: Unexpected token (20:40) (20:40)
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: Unexpected token (20:40)
+front-app        | 
+front-app        |   18 |             {Object.keys(initialValues).map(e => {
+front-app        |   19 |                 return <> <input
+front-app        | > 20 |                     value={formh.values[]} id={e}
+front-app        |      |                                         ^
+front-app        |   21 |                     placeholder={e} key={e}
+front-app        |   22 |                     onChange={formh.handleChange}
+front-app        |   23 |                     onBlur={formh.handleBlur}
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11248:22)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6992:20)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseMember (/user/src/app/node_modules/@babel/parser/lib/index.js:10917:28)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:10905:21)
+front-app        |     at FlowParserMixin.parseSubscript (/user/src/app/node_modules/@babel/parser/lib/index.js:5919:18)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10872:19)
+front-app        |     at FlowParserMixin.parseSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:5885:18)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10863:17)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 20:40:  Parsing error: Unexpected token (20:40)
+front-app        | 
+front-app        | webpack compiled with 2 errors and 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:43 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:47 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:53 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:19:58 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: JSX attributes must only be assigned a non-empty expression. (21:25) (21:25)
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: JSX attributes must only be assigned a non-empty expression. (21:25)
+front-app        | 
+front-app        |   19 |                 return <> <input
+front-app        |   20 |                     value={formh.values[e]} id={e}
+front-app        | > 21 |                     type={}
+front-app        |      |                          ^
+front-app        |   22 |                     placeholder={e} key={e}
+front-app        |   23 |                     onChange={formh.handleChange}
+front-app        |   24 |                     onBlur={formh.handleBlur}
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6822:16)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:61)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseBlock (/user/src/app/node_modules/@babel/parser/lib/index.js:13101:10)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:11911:24)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5110:70
+front-app        |     at FlowParserMixin.forwardNoArrowParamsConversionAt (/user/src/app/node_modules/@babel/parser/lib/index.js:5287:16)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:5110:19)
+front-app        |     at FlowParserMixin.parseArrowExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:11886:10)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11244:25)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6992:20)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10569:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 21:25:  Parsing error: JSX attributes must only be assigned a non-empty expression. (21:25)
+front-app        | 
+front-app        | webpack compiled with 2 errors and 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:09 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: Unexpected token (21:41) (21:41)
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: Unexpected token (21:41)
+front-app        | 
+front-app        |   19 |                 return <> <input
+front-app        |   20 |                     value={formh.values[e]} id={e}
+front-app        | > 21 |                     type={e==="password"?}
+front-app        |      |                                          ^
+front-app        |   22 |                     placeholder={e} key={e}
+front-app        |   23 |                     onChange={formh.handleChange}
+front-app        |   24 |                     onBlur={formh.handleBlur}
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11248:22)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6992:20)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10569:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseMaybeAssignAllowIn (/user/src/app/node_modules/@babel/parser/lib/index.js:10569:17)
+front-app        |     at FlowParserMixin.tryParseConditionalConsequent (/user/src/app/node_modules/@babel/parser/lib/index.js:5242:29)
+front-app        |     at FlowParserMixin.parseConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:5201:14)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10642:17)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 21:41:  Parsing error: Unexpected token (21:41)
+front-app        | 
+front-app        | webpack compiled with 2 errors and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: Unexpected token, expected ":" (21:42) (21:42)
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: Unexpected token, expected ":" (21:42)
+front-app        | 
+front-app        |   19 |                 return <> <input
+front-app        |   20 |                     value={formh.values[e]} id={e}
+front-app        | > 21 |                     type={e==="password"?e}
+front-app        |      |                                           ^
+front-app        |   22 |                     placeholder={e} key={e}
+front-app        |   23 |                     onChange={formh.handleChange}
+front-app        |   24 |                     onBlur={formh.handleBlur}
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.expect (/user/src/app/node_modules/@babel/parser/lib/index.js:3629:28)
+front-app        |     at FlowParserMixin.parseConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:5234:10)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10642:17)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:5135:24)
+front-app        |     at FlowParserMixin.parseStatementListItem (/user/src/app/node_modules/@babel/parser/lib/index.js:12528:17)
+front-app        |     at FlowParserMixin.parseBlockOrModuleBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13120:61)
+front-app        |     at FlowParserMixin.parseBlockBody (/user/src/app/node_modules/@babel/parser/lib/index.js:13113:10)
+front-app        |     at FlowParserMixin.parseBlock (/user/src/app/node_modules/@babel/parser/lib/index.js:13101:10)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:11911:24)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5110:70
+front-app        |     at FlowParserMixin.forwardNoArrowParamsConversionAt (/user/src/app/node_modules/@babel/parser/lib/index.js:5287:16)
+front-app        |     at FlowParserMixin.parseFunctionBody (/user/src/app/node_modules/@babel/parser/lib/index.js:5110:19)
+front-app        |     at FlowParserMixin.parseArrowExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:11886:10)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11244:25)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 21:42:  Parsing error: Unexpected token, expected ":" (21:42)
+front-app        | 
+front-app        | webpack compiled with 2 errors and 1 warning
+front-app        | Compiling...
+front-app        | Failed to compile.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/form-creator.js
+front-app        | Syntax error: Unexpected token (21:43) (21:43)
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | ERROR in ./src/component/form-creator.js
+front-app        | Module build failed (from ./node_modules/babel-loader/lib/index.js):
+front-app        | SyntaxError: /user/src/app/src/component/form-creator.js: Unexpected token (21:43)
+front-app        | 
+front-app        |   19 |                 return <> <input
+front-app        |   20 |                     value={formh.values[e]} id={e}
+front-app        | > 21 |                     type={e==="password"?e:}
+front-app        |      |                                            ^
+front-app        |   22 |                     placeholder={e} key={e}
+front-app        |   23 |                     onChange={formh.handleChange}
+front-app        |   24 |                     onBlur={formh.handleBlur}
+front-app        |     at instantiate (/user/src/app/node_modules/@babel/parser/lib/index.js:64:32)
+front-app        |     at constructor (/user/src/app/node_modules/@babel/parser/lib/index.js:364:12)
+front-app        |     at FlowParserMixin.raise (/user/src/app/node_modules/@babel/parser/lib/index.js:3253:19)
+front-app        |     at FlowParserMixin.unexpected (/user/src/app/node_modules/@babel/parser/lib/index.js:3283:16)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:11248:22)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6992:20)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5237:77
+front-app        |     at FlowParserMixin.forwardNoArrowParamsConversionAt (/user/src/app/node_modules/@babel/parser/lib/index.js:5287:16)
+front-app        |     at FlowParserMixin.parseConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:5237:27)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10642:17)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5816:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12244:12)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.jsxParseExpressionContainer (/user/src/app/node_modules/@babel/parser/lib/index.js:6852:31)
+front-app        |     at FlowParserMixin.jsxParseAttributeValue (/user/src/app/node_modules/@babel/parser/lib/index.js:6820:21)
+front-app        |     at FlowParserMixin.jsxParseAttribute (/user/src/app/node_modules/@babel/parser/lib/index.js:6873:38)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAfterName (/user/src/app/node_modules/@babel/parser/lib/index.js:6887:28)
+front-app        |     at FlowParserMixin.jsxParseOpeningElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6882:17)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6906:33)
+front-app        |     at FlowParserMixin.jsxParseElementAt (/user/src/app/node_modules/@babel/parser/lib/index.js:6918:32)
+front-app        |     at FlowParserMixin.jsxParseElement (/user/src/app/node_modules/@babel/parser/lib/index.js:6975:17)
+front-app        |     at FlowParserMixin.parseExprAtom (/user/src/app/node_modules/@babel/parser/lib/index.js:6987:19)
+front-app        |     at FlowParserMixin.parseExprSubscripts (/user/src/app/node_modules/@babel/parser/lib/index.js:10859:23)
+front-app        |     at FlowParserMixin.parseUpdate (/user/src/app/node_modules/@babel/parser/lib/index.js:10842:21)
+front-app        |     at FlowParserMixin.parseMaybeUnary (/user/src/app/node_modules/@babel/parser/lib/index.js:10818:23)
+front-app        |     at FlowParserMixin.parseMaybeUnaryOrPrivate (/user/src/app/node_modules/@babel/parser/lib/index.js:10656:61)
+front-app        |     at FlowParserMixin.parseExprOps (/user/src/app/node_modules/@babel/parser/lib/index.js:10661:23)
+front-app        |     at FlowParserMixin.parseMaybeConditional (/user/src/app/node_modules/@babel/parser/lib/index.js:10638:23)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:10599:21)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:5761:39
+front-app        |     at FlowParserMixin.tryParse (/user/src/app/node_modules/@babel/parser/lib/index.js:3636:20)
+front-app        |     at FlowParserMixin.parseMaybeAssign (/user/src/app/node_modules/@babel/parser/lib/index.js:5761:18)
+front-app        |     at FlowParserMixin.parseExpressionBase (/user/src/app/node_modules/@babel/parser/lib/index.js:10553:23)
+front-app        |     at /user/src/app/node_modules/@babel/parser/lib/index.js:10549:39
+front-app        |     at FlowParserMixin.allowInAnd (/user/src/app/node_modules/@babel/parser/lib/index.js:12239:16)
+front-app        |     at FlowParserMixin.parseExpression (/user/src/app/node_modules/@babel/parser/lib/index.js:10549:17)
+front-app        |     at FlowParserMixin.parseReturnStatement (/user/src/app/node_modules/@babel/parser/lib/index.js:12934:28)
+front-app        |     at FlowParserMixin.parseStatementContent (/user/src/app/node_modules/@babel/parser/lib/index.js:12581:21)
+front-app        |     at FlowParserMixin.parseStatementLike (/user/src/app/node_modules/@babel/parser/lib/index.js:12548:17)
+front-app        | 
+front-app        | ERROR in [eslint] 
+front-app        | src/component/form-creator.js
+front-app        |   Line 21:43:  Parsing error: Unexpected token (21:43)
+front-app        | 
+front-app        | webpack compiled with 2 errors and 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:32 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:36 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:41 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:49 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:20:58 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:15 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+front-app        | Compiling...
+front-app        | Compiled with warnings.
+front-app        | 
+front-app        | [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | Search for the keywords to learn more about each warning.
+front-app        | To ignore, add // eslint-disable-next-line to the line before.
+front-app        | 
+front-app        | WARNING in [eslint] 
+front-app        | src/component/AuthForm.js
+front-app        |   Line 26:9:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+front-app        | 
+front-app        | webpack compiled with 1 warning
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:18 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:19 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:21 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:25 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:33 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:21:49 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+blog-app         | ::ffff:172.19.0.1 - - [Mon, 06 Mar 2023 12:22:21 GMT] "GET /ws HTTP/1.1" 404 141 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"

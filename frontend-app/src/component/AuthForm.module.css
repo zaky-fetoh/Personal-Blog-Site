@@ -1,0 +1,21 @@
+.formContainer{
+    text-align: center;
+}
+button{
+    font-size: 1.2em;
+    margin: 5px;
+    margin-top: 7px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 2px red solid;
+    border-radius: 3px ;
+    padding: 7px;
+}
+input{
+    font-size: 1.2em;
+    margin: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+

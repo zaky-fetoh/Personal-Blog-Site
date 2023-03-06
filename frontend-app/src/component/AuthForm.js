@@ -3,6 +3,8 @@ import { useState } from "react";
 // import { useDispatch, useSelector } from "react-redux"
 // import {} from"../feature/auth/auth-slice";
 
+import styles from "./AuthForm.module.css"
+
 export default function AuthForm(props){
     // InUp switch is true for SignIn form and false for SignUp form
     const [InUp, setInUp] = useState(true)
@@ -19,11 +21,11 @@ export default function AuthForm(props){
         userName:"", password:"",
     }, signInHandler,"SignIn");
 
-    return <div>
+    return <div className={styles.formContainer}>
         {(InUp && <SignInForm/>) || <SignUpForm/> }
-        <p onClick={()=>setInUp(!InUp)}>{(InUp && "Sign Up" )|| "Sign In" }</p>
+        <a onClick={(e)=>{
+            e.preventDefault()
+            setInUp(!InUp)}}
+        href="">{(InUp && "Sign Up" )|| "Sign In" }</a>
     </div>
-    
-
-
 }
