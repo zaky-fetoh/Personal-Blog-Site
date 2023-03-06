@@ -2,3 +2,6 @@ body{
     margin: 0%;
     background-color: rgb(206, 186, 172);
 }
+.headerDiv{
+    width: fit-content;
+}
