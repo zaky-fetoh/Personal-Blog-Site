@@ -22,7 +22,8 @@ function NavHeader(){
       <Link to="/myBlogs">  Profile  </Link>|
       <a href="/" onClick={(e)=>{e.preventDefault();
         dispatch(authAct.logout());}}>
-          LogOut  </a>
+          LogOut  </a> | 
+      <Link to="/">  Home  </Link>
     </nav></div>
 }
 
