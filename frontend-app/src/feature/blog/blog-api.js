@@ -1,4 +1,4 @@
-const BlogUrl  = "http://localhost:300/blog/";
+const BlogUrl  = "http://localhost:3000/blog";
 
 
 export const getBlogHeaders = async(token)=>{
@@ -10,12 +10,12 @@ export const getBlogHeaders = async(token)=>{
         }
     });
     const jsonData = await req.json(); 
-    if(jsonData.ok) return {
-        id:jsonData.data.blog_id,
-        title:jsonData.data.blog_title,
-        time:jsonData.data.blog_time,
-        ower:jsonData.data.blog_owner,
-    }
+    if(jsonData.ok) return jsonData.data.map(doc=>({
+        id:doc.blog_id,
+        title:doc.blog_title,
+        time:doc.blog_time,
+        ower:doc.blog_owner,
+    }))
     else throw new Error(jsonData.message);
 }
 
@@ -35,7 +35,7 @@ export const addBlog = async({title,blog}, token)=>{
 
 
 export const getMyBlog = async(token)=>{
-    const req = await fetch(BlogUrl+"my-blog",{
+    const req = await fetch(BlogUrl+"/my-blog",{
         method:"GET", 
         headers:{
             "Authorization":`Bearer ${token}`,
@@ -48,7 +48,7 @@ export const getMyBlog = async(token)=>{
 }
 
 export const getBlog = async(blogId, token)=>{
-    const req = await fetch(`${BlogUrl}${blogId}`,{
+    const req = await fetch(`${BlogUrl}/${blogId}`,{
         method:"GET", 
         headers:{
             "Authorization":`Bearer ${token}`,
@@ -61,7 +61,7 @@ export const getBlog = async(blogId, token)=>{
 }
 
 export const deleteBlog = async(blogId, token)=>{
-    const req = await fetch(`${BlogUrl}${blogId}`,{
+    const req = await fetch(`${BlogUrl}/${blogId}`,{
         method:"DELETE", 
         headers:{
             "Authorization":`Bearer ${token}`,

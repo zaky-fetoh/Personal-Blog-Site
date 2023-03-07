@@ -6,13 +6,10 @@ export default function NotFoundPage(props){
     const [cnt,setCnt] = useState(5)
     const navg = useNavigate();
     useEffect(()=>{
-
         if(cnt === 0){
-            navg("/");
-            return;
+            navg("/");return;
         }
-        setTimeout(()=>{
-            setCnt(cnt-1)
+        setTimeout(()=>{ setCnt(cnt-1)
         },1000)
     },[cnt])
     return <><h1>NotFound </h1>

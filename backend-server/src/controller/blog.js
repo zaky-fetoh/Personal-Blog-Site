@@ -47,10 +47,9 @@ exports.getBlog = async (req, res, next) => {
             data: DocBlog,
         })
     } catch (e) {
-        res.status(200).json({
-            ok: true, message: e.message,
+        res.status(500).json({
+            ok: false, message: e.message,
             servTim: req.getReqTime(),
-            data: DocBlog,
         })
     }
 

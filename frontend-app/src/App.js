@@ -4,8 +4,8 @@ import{ useDispatch, useSelector }from "react-redux"
 import { useEffect } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css"
-import {BlogHeaderPage} from "./pages/BlogHeaderPage";
-import {MyBlogPage} from "./pages/MyBlogPage"
+import BlogHeaderPage from "./pages/BlogHeaderPage";
+import MyBlogPage from "./pages/MyBlogPage"
 import NotFoundPage from "./pages/NotFoundPage";
 import BlogPage from "./pages/BlogPage";
 
@@ -16,20 +16,15 @@ function Name(props){
 }
 
 function NavHeader(){
+  const dispatch = useDispatch();
+  
   return <div className={styles.headerDiv}><nav>
       <Link to="/myBlogs">  Profile  </Link>|
-      <Link to="/logout">  LogOut  </Link>
+      <a href="/" onClick={(e)=>{e.preventDefault();
+        dispatch(authAct.logout());}}>
+          LogOut  </a>
     </nav></div>
 }
-
-function LogOut(props){
-  const dispatch = useDispatch();
-  dispatch(authAct.logout());
-  return <div>
-    Loging Out...
-  </div>
-}
-
 
 
 function Home(props){
@@ -39,7 +34,6 @@ function Home(props){
     <Route index element={<BlogHeaderPage/>} />
     <Route path="/myBlogs" element={<MyBlogPage/>}/>
     <Route path="/:blogId" element={<BlogPage/>}/>
-    <Route path="/logout" element={<LogOut/>}/>
     <Route path="/*" element={<NotFoundPage/>}/>
   </Routes></>
 }
