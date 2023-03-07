@@ -26,7 +26,7 @@ export const addBlog = async({title,blog}, token)=>{
             "Authorization":`Bearer ${token}`,
             'Access-Control-Allow-Origin': '*',
         },
-        body:{title, blog}
+        body:JSON.stringify({title, blog})
     })
     const jsondata= await req.json();
     if(jsondata.ok) return jsondata.blogId; 

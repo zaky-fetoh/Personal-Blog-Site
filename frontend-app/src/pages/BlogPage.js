@@ -6,7 +6,7 @@ import{actions as blogAct}from"../feature/blog/blog-slice"
 
 
 export default function BlogPage(props){
-    const id = useParams("blogId");
+    const id = useParams().blogId;
     const blog = useSelector(s=>s.blog);
     const dispatch = useDispatch();
     useEffect(()=>{
