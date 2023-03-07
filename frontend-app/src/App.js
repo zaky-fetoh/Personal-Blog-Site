@@ -6,6 +6,8 @@ import { Link, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css"
 import {BlogHeaderPage} from "./pages/BlogHeaderPage";
 import {MyBlogPage} from "./pages/MyBlogPage"
+import NotFoundPage from "./pages/NotFoundPage";
+import BlogPage from "./pages/BlogPage";
 
 function Name(props){
   return <div className={styles.titling}>
@@ -27,6 +29,8 @@ function LogOut(props){
     Loging Out...
   </div>
 }
+
+
 
 function Home(props){
   return <><header>

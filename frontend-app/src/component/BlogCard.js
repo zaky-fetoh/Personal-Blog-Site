@@ -1,4 +1,4 @@
-export default function BlogHeaderCard(props) {
+export default function BlogCard(props) {
 
     return <div>
         <h2> {props.title}</h2>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import BlogHeaderCard from "../component/BlogHeaderCard";
+import BlogCard from "../component/BlogCard";
 import{actions as blogAct}from"../feature/blog/blog-slice";
 
 
@@ -14,7 +14,7 @@ export default function MyBlogPage(props){
     return <div>
         <button onClick={()=>setRefr(!refr)}> refresh </button>
         {blogState.map(e=>{
-            return <BlogHeaderCard key={e.id} id={e.id}
+            return <BlogCard key={e.id} id={e.id}
             owner={e.owner} title={e.title} time={e.time}
             blog={e.blog}
         />})}
